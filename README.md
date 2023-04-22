@@ -1,59 +1,46 @@
-<div style="background-color:#8cb4bd;padding:1px;">
-    <h3> <div style="text-align: center;">
-      <img src="https://lh3.googleusercontent.com/a/AEdFTp4pzb3QwDdfzikLxA0xoUQxXFRWS9tPTzV6O-q_=s40-p" alt="Girl in a jacket" width="50" height="50"></h3>
-      
-    <p>
-    
-    <h2><div style="text-align: center;">My Name is Chris</h2>
-      
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>مقرات دير الأنبا انطونيوس</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>مقرات دير الأنبا انطونيوس</h1>
+        <nav>          <ul>            <li><a href="index.html">Home</a></li>           </ul>        </nav>
       </div>
-      
-    <p>
-      
-    <div style="background-color:#74aaab;padding:1px;">
-      <h3>I am in St.Joseph School<br>
-        I am 15 years old
-      </h3>
-    </div>
-      
-    <p>
-      
-    <div style="background-color:#9cd2cb;padding:1px;">
-    <h4>
-    <ul>
-      <li><strong>My Father:</strong></li>
-        <ul>
-          <li><mark>Samuel
-      </ul>
-    </ul>
-    </h4>
-    </div>
-      
-    <p>
-    
-    <div style="background-color:#edf4f3;padding:1px;">
-    <h4>
-    <ul>
-      <li><strong>My Mother:</strong></li>
-        <ul>
-          <li><mark>Maha
-      </ul>
-    </ul>
-    </h4>
-    </div>
-      
-    <p>
-    
-    <div style="background-color:#d29c9c;padding:1px;">
-    <h4>
-    <ul>
-      <li><strong>My Brother:</strong></li>
-        <ol>
-          <li><Mark>Mark
-      </ol>
-    </ul>
-    </h4>
-    </div>
-    
-    <h5><a href="https://www.instagram.com/chrisam116/">Visit My Social Media Account!</a></h5>
-# chrisam116.github.io
+    </header>
+    <main>
+      <div class="container">
+        <h2>مقرات دير الأنبا انطونيوس</h2>
+        <p>اختر محافظتك</p>
+        <div class="places">
+          <div class="place">
+            <img src="H:\DDMPV\Pictures\IMG_20230420_183254.jpg" alt="Place 1">
+            <h3>البحر الأحمر</h3>
+            <p>الغردقة</p>
+            <a href="place1.html">Learn More</a>
+          </div>
+          <div class="place">
+            <img src="place2.jpg" alt="Place 2">
+            <h3>Place 2</h3>
+            <p>Los Angeles</p>
+            <a href="place2.html">Learn More</a>
+          </div>
+          <div class="place">
+            <img src="place3.jpg" alt="Place 3">
+            <h3>Place 3</h3>
+            <p>Chicago</p>
+            <a href="place3.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Places. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>	
